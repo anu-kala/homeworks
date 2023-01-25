@@ -1,0 +1,30 @@
+<script>
+var arr=[10,3,40,190,78,92,56];
+console.log(arr.length);
+
+var i=0;
+
+
+var max=-Infinity;
+var max2=-Infinity;
+
+
+while(i<arr.length){
+    console.log(i,arr[i]);
+
+    if(arr[i]>max){
+        max2=max;
+        max=arr[i];
+    }
+    else if(max2<max && arr[i]>max2){
+        max2=arr[i];
+    }
+    i++;
+}
+console.log(max);
+console.log(max2);
+
+
+
+
+</script>

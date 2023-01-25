@@ -1,0 +1,39 @@
+<script>
+  var brand1 = ["nike", "puma"];
+  var brand2 = ["killer jeans", "zara"];
+  var brand3 = ["tata"];
+
+  var ans = brand1.concat(brand2, brand3);
+  console.log(ans);
+
+//   spread operator
+
+
+var ans1=[...brand1,...brand2,...brand3];
+console.log(ans1);
+
+
+// join()
+var username=['amit','kalpesh','thakur'];
+console.log(username);
+
+
+var ans2=username.join();
+console.log(ans2);
+
+var ans2=username.join(" ");
+console.log(ans2);
+
+var dob=[23,3,2000];
+console.log(dob);
+
+var ans4=dob.join("/");
+console.log(ans4);
+
+var ans4=dob.join("-");
+console.log(ans4);
+
+var ans4=dob.join(".");
+console.log(ans4);
+
+</script>
